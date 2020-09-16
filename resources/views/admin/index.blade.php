@@ -1,0 +1,50 @@
+@include('admin.includes.header')
+
+<aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion">
+
+          <h4 class="centered">Admin Panel</h4>
+          <li class="mt">
+            <a class="active" href="{{ url('admin/index') }}">
+              <i class="fa fa-dashboard"></i>
+              <span>Dashboard</span>
+              </a>
+          </li>
+           <li>
+            <a href="{{ url('applicant/details') }}">
+              <i class="fa fa-map-marker"></i>
+              <span>Applicant Details</span>
+              </a>
+         </li>
+         <li>
+            <a href="{{ url('message') }}">
+              <i class="fa fa-map-marker"></i>
+              <span>Message</span>
+              </a>
+         </li>
+          <li>
+            <a href="{{ url('change_password') }}">
+              <i class="fa fa-map-marker"></i>
+              <span>Change Password</span>
+              </a>
+         </li>
+
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+
+
+
+<div style="padding: 239px">
+<h1 style="margin-left: 260px">Welcome to R & B Groups</h1>
+
+</div>
+<div style="padding: 19px">
+
+</div>
+
+
+@include('admin.includes.footer')
