@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use \App\Applicant;
 use App\ApplicantShift;
+use Image;
 
 class IndexController extends Controller
 {
@@ -100,6 +101,7 @@ class IndexController extends Controller
             $file = $r->file('coverletter');
             $coverletter = date('ymdhis') . $file->getClientOriginalName();
             $path = public_path() . '/uploads/';
+            // $coverletter->resize(300, 300);
             $file->move($path, $coverletter);
         }
         $resume = '';
@@ -107,6 +109,8 @@ class IndexController extends Controller
             $file = $r->file('resume');
             $resume = date('ymdhis') . $file->getClientOriginalName();
             $path = public_path() . '/uploads/';
+            // $resume = Image::make($image->getRealPath());
+            // $resume->resize(300, 300);
             $file->move($path, $resume);
         }
 

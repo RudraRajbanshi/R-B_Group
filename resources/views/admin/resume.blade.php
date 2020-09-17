@@ -102,6 +102,8 @@
         <!-- /row -->
       </section>
        <button onclick="printContent('print_content')" class="btn btn-success" style="margin:0 0 2% 2%" type="submit" name="apply">Print</button>
+    <br>
+      <i style="margin-left:2%"> Note: For *.pdf files, Print option is at the top of the image.</i>
     </section>
     <!-- /MAIN CONTENT -->
     <!--main content end-->
