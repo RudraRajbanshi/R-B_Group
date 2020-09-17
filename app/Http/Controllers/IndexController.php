@@ -82,9 +82,9 @@ class IndexController extends Controller
             'visaExpiry' => 'required',
             'workPermit' => 'required',
 
-            'image' => 'mimes:jpeg,bmp,png,gif|max:5000',
-            'coverletter' => 'mimes:jpeg,bmp,png,gif,pdf,doc,docx|max:5000',
-            'resume' => 'mimes:jpeg,bmp,png,gif,pdf,doc,docx|max:5000'
+            'image' => 'mimes:jpeg',
+            'coverletter' => 'mimes:pdf',
+            'resume' => 'mimes:pdf'
         );
 
        $r->validate($validation);

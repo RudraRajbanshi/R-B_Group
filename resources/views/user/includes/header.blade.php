@@ -30,9 +30,14 @@
   <link href="{{ asset('user/assets/css/style.css') }}" rel="stylesheet">
 
 
+
 </head>
 
 <body>
+
+  {{-- <button type="button" class="mobile-nav-toggle d-lg-none">
+    <i class="icofont-navigation-menu"></i>
+  </button> --}}
 
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-none d-lg-block">

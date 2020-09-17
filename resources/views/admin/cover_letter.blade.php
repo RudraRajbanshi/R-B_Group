@@ -50,7 +50,7 @@
        </div> --}}
 
         <!-- row -->
-        <div style="width:50%;margin:1% 0 -1% 1%">
+        <div style="width:100%;margin:1% 0 -1% 1%">
                     <form style="float:left;margin-right:1%" method="GET" action = "{{ url('answers') }}">
                     <input type = 'hidden' name = 'email' value = "{{ $applicant['email'] }}" />
                       <input type = 'hidden' name = '_token' value = '{{ csrf_token() }}' />
@@ -66,17 +66,15 @@
           <div class="col-md-12" >
 
             <form action="{{ url('/question') }}"  method="POST">
-                 <div style="back;width:100%;height:80px;margin-top:2%">
+                 <div style="width:100%;height:80px;margin-top:2%">
                         <div style="float:left;width:20%;background:red">
                             <img style="width:200%" src="{{ asset('user/assets/img/logo.png') }}"  alt="" class="img-fluid">
                         </div>
-
-
-
-                       </div>
-                       <div style="float:right;margin-top:-2%">
+                        <div style="float:right;margin-top:7%">
                        <h5>Email: {{ $applicant['email'] }}</h5>
                        </div>
+                       </div>
+
                        <hr>
                        {{-- <img src="{{ URL::to('/').'/uploads/'.$applicant['cover_letter'] }}" width="100%" height="100%" alt="NO PHOTO"> --}}
                         <iframe style="width:100%;height:500px" src="{{ url('uploads/'.$applicant['cover_letter']) }}"></iframe>
@@ -101,9 +99,9 @@
 
         <!-- /row -->
       </section>
-       <button onclick="printContent('print_content')" class="btn btn-success" style="margin:0 0 2% 2%" type="submit" id="print">Print</button>
+       {{-- <button onclick="printContent('print_content')" class="btn btn-success" style="margin:0 0 2% 2%" type="submit" id="print">Print</button>
       <br>
-      <i style="margin-left:2%"> Note: For *.pdf files, Print option is at the top of the image.</i>
+      <i style="margin-left:2%"> Note: For *.pdf files, Print option is at the top of the image.</i> --}}
     </section>
     <!-- /MAIN CONTENT -->
     <!--main content end-->

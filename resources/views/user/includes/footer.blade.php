@@ -77,7 +77,7 @@
   <script src="{{ asset('user/assets/vendor/aos/aos.js') }}"></script>
 
   <!-- Template Main JS File -->
-  <script src="{{ asset('assets/js/main.js') }}"></script>
+  <script src="{{ asset('user/assets/js/main.js') }}"></script>
 
   <script>
   $(function() {

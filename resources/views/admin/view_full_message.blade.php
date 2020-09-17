@@ -68,7 +68,7 @@
             <h5><b> Name: {{ $message['name'] }} </b></h5>
             <h5><b> Email: {{ $message['email'] }} </b></h5>
             <h5><b> Subject: {{ $message['subject'] }} </b></h5>
-           <textarea name="" id="" cols="100" rows="18">
+           <textarea name="" id="" cols="83" rows="18">
 
                 {{ $message['message'] }}
            </textarea>

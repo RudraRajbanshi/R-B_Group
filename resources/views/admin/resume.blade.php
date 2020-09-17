@@ -50,7 +50,7 @@
        </div> --}}
 
         <!-- row -->
-        <div style="width:50%;margin:1% 0 -1% 1%">
+        <div style="width:100%;margin:1% 0 -1% 1%">
                     <form style="float:left;margin-right:1%" method="GET" action = "{{ url('answers') }}">
                     <input type = 'hidden' name = 'email' value = "{{ $applicant['email'] }}" />
                       <input type = 'hidden' name = '_token' value = '{{ csrf_token() }}' />
@@ -101,9 +101,9 @@
 
         <!-- /row -->
       </section>
-       <button onclick="printContent('print_content')" class="btn btn-success" style="margin:0 0 2% 2%" type="submit" name="apply">Print</button>
+       {{-- <button onclick="printContent('print_content')" class="btn btn-success" style="margin:0 0 2% 2%" type="submit" name="apply">Print</button>
     <br>
-      <i style="margin-left:2%"> Note: For *.pdf files, Print option is at the top of the image.</i>
+      <i style="margin-left:2%"> Note: For *.pdf files, Print option is at the top of the image.</i> --}}
     </section>
     <!-- /MAIN CONTENT -->
     <!--main content end-->

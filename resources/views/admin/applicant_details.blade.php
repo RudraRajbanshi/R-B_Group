@@ -39,14 +39,14 @@
 
 
 <!--main content start-->
-    <section id="main-content">
+    <section id="main-content" >
       <section class="wrapper" style="height: 1000px">
         <h3><i class="fa fa-angle-right"></i>Applicant Details</h3>
 
         Total: {{ $applicant->count()}}
 
         <!-- row -->
-        <div class="row mt">
+        <div class="row mt" >
 
           <div class="col-md-12">
              {{-- <a href="{{ url('admin/createcar') }}" class="btn btn-theme" >Add</a> --}}
@@ -72,11 +72,12 @@
                   <tr>
 
                     <th>Full Name</th>
-                    <th>Country</th>
+
                     <th>Contact</th>
                     <th>Email</th>
 
                     <th>Time</th>
+                    <th>Action</th>
                     <th></th>
                   </tr>
                 </thead>
@@ -88,7 +89,7 @@
                   <tr>
 
                     <td>{{ $a['name'] . " " . $a['middle_name'] . " " . $a['surname'] }}</td>
-                    <td>{{ $a['country'] }}</td>
+
                     <td>{{ $a['phone'] }}</td>
                     <td>{{ $a['email'] }}</td>
 

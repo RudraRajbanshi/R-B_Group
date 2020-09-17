@@ -3,7 +3,8 @@
         <!-- sidebar menu start-->
         <ul class="sidebar-menu" id="nav-accordion">
 
-          <h4 class="centered">Admin Panel</h4>
+          {{-- <h4 class="centered">Admin Panel</h4> --}}
+          {{-- <a  href="{{ url('admin/index') }}" class="logo"><img style="width:20%;" src="{{ asset('user/assets/img/logo.png') }}" alt="" class="img-fluid"></a> --}}
           <li class="mt">
             <a class="active" href="{{ url('admin/index') }}">
               <i class="fa fa-dashboard"></i>

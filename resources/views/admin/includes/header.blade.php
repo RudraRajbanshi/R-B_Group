@@ -41,9 +41,10 @@
     <header class="header black-bg">
       <div class="sidebar-toggle-box">
         <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+
       </div>
       <!--logo start-->
-      <a href="{{ url('admin/index') }}" class="logo"><img src="{{ asset('user/assets/img/logo.png') }}" width="30%" height="auto" alt="" class="img-fluid"></a>
+ <a  href="{{ url('admin/index') }}" class="logo"><img style="width:150px;" src="{{ asset('user/assets/img/logo.png') }}" alt="" class="img-fluid"></a>
       <!--logo end-->
       <div class="nav notify-row" id="top_menu" >
         <!--  notification start -->

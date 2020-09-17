@@ -6,7 +6,7 @@
 
       <div class="logo mr-auto">
         <!-- <h1 class="text-light"><a href="index.html">R&B Groups</a></h1> -->
-        <a href="index.html"><img src="{{ asset('user/assets/img/logo.png') }}" alt="" class="img-fluid"></a>
+      <a href="{{ url('/index') }}"><img src="{{ asset('user/assets/img/logo.png') }}" alt="" class="img-fluid"></a>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">

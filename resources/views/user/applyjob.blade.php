@@ -5,7 +5,7 @@
 
       <div class="logo mr-auto">
         <!-- <h1 class="text-light"><a href="index.html">R&B Groups</a></h1> -->
-        <a href="index.html"><img src="{{ asset('user/assets/img/logo.png') }}" alt="" class="img-fluid"></a>
+        <a href="{{ url('/index') }}"><img src="{{ asset('user/assets/img/logo.png') }}" alt="" class="img-fluid"></a>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -317,17 +317,17 @@
                         <br />
                         <div class="form-row">
                             <div class="col-md-4 mb-3">
-                                <label for="validationDefault02">Image </label>
+                                <label for="validationDefault02">Image (PP size) </label>
                                 <input type="file" class="form-control" name="image">
 
                             </div>
                             <div class="col-md-4 mb-3">
-                                <label for="validationDefault02">Cover letter </label>
+                                <label for="validationDefault02">Cover letter (PDF only) </label>
                                 <input type="file" class="form-control" name="coverletter">
 
                             </div>
                             <div class="col-md-4 mb-3">
-                                <label for="validationDefault05">Resume *</label>
+                                <label for="validationDefault05">Resume (PDF only) *</label>
                                 <input type="file" class="form-control" name="resume" required>
                             </div>
                         </div>

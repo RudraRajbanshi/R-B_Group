@@ -48,7 +48,7 @@
             <h5>  <a href="" class="btn btn-primary">View Resume</a> </h5>
 
        </div> --}}
-       <div style="width:50%;margin:1% 0 -1% 1%">
+       <div style="width:100%;margin:1% 0 -1% 1%">
                     <form style="float:left;margin-right:1%" method="GET" action = "{{ url('answers') }}">
                     <input type = 'hidden' name = 'email' value = "{{ $applicant['email'] }}" />
                       <input type = 'hidden' name = '_token' value = '{{ csrf_token() }}' />
@@ -63,7 +63,7 @@
 
 
         <!-- row -->
-        <div id="print_content" class="row mt" style="border:1px solid black;width:80%;margin-left:1%">
+        <div id="print_content" class="row mt" style="border:1px solid black;width:90%;margin-left:1%">
 
           <div class="col-md-12" >
 
@@ -71,13 +71,13 @@
           <div class="php-email-form" >
                     <form class="applyjob" >
 
-                       <div style="width:100%;height:150px;margin-top:2%">
-                        <div style="float:left">
-                            <img src="{{ asset('user/assets/img/logo.png') }}"  alt="" class="img-fluid">
+                       <div style="width:100%;height:100px;margin-top:2%">
+                        <div style="float:left;width:75%">
+                            <img style="width:60%" src="{{ asset('user/assets/img/logo.png') }}"  alt="" class="img-fluid">
 
 
                         </div>
-                        <div style="width:20%;height:100%;float:right;border:1px solid black">
+                        <div style="width:15%;height:100%;float:right;border:1px solid black">
 
                             <img src="{{ URL::to('/').'/uploads/'.$applicant['image'] }}" width="100%" height="100%" alt="NO PHOTO">
                         </div>

@@ -6,6 +6,7 @@
         <ul class="sidebar-menu" id="nav-accordion">
 
           <h4 class="centered">Admin Panel</h4>
+
           <li class="mt">
             <a class="active" href="{{ url('admin/index') }}">
               <i class="fa fa-dashboard"></i>
@@ -38,13 +39,32 @@
 
 
 
-<div style="padding: 239px">
-<h1 style="margin-left: 260px">Welcome to R & B Groups</h1>
+<!--main content start-->
+    <section id="main-content">
+      <section class="wrapper" style="height: 1000px">
 
-</div>
-<div style="padding: 19px">
 
-</div>
+        <!-- row -->
+        <div class="row mt">
+
+          <div class="col-md-12">
+             {{-- <a href="{{ url('admin/createcar') }}" class="btn btn-theme" >Add</a> --}}
+            <div class="content-panel">
+           <center><h3> Welcome to R&B Groups Admin Panel</h3></center>
+
+
+
+
+            </div>
+            <!-- /content-panel -->
+          </div>
+          <!-- /col-md-12 -->
+        </div>
+        <!-- /row -->
+      </section>
+    </section>
+    <!-- /MAIN CONTENT -->
+    <!--main content end-->
 
 
 @include('admin.includes.footer')
