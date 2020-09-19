@@ -393,7 +393,7 @@
 
                         <div class="form-row">
                              <div class="col-md-5 mb-3">
-                                 <textarea disabled cols="30" rows="7">{{ $shift }}</textarea>
+                                 <textarea disabled cols="50" rows="7">{{ $shift }}</textarea>
 
                             </div>
                             <div class="col-md-5 mb-3">

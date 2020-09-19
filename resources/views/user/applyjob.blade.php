@@ -234,44 +234,44 @@
 
                                 <tr>
                                     <th>Monday</th>
-                                    <th> <input type="radio" value="morning" name="monday" @if(old('monday') == 'morning') checked @endif/> </th>
-                                    <th> <input type="radio" value="afternoon" name="monday" @if(old('monday') == 'afternoon') checked @endif/> </th>
-                                    <th> <input type="radio" value="evening" name="monday" @if(old('monday') == 'evening') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Morning" name="monday[]" @if(old('monday') == 'morning') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Afternoon" name="monday[]" @if(old('monday') == 'afternoon') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Evening" name="monday[]" @if(old('monday') == 'evening') checked @endif/> </th>
 
                                 </tr>
                                 <tr>
                                     <th>Tuesday</th>
-                                    <th> <input type="radio" value="morning" name="tuesday" @if(old('tuesday') == 'morning') checked @endif/> </th>
-                                    <th> <input type="radio" value="afternoon" name="tuesday" @if(old('tuesday') == 'afternoon') checked @endif/> </th>
-                                    <th> <input type="radio" value="evening" name="tuesday" @if(old('tuesday') == 'evening') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Morning" name="tuesday[]" @if(old('tuesday') == 'morning') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Afternoon" name="tuesday[]" @if(old('tuesday') == 'afternoon') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Evening" name="tuesday[]" @if(old('tuesday') == 'evening') checked @endif/> </th>
 
                                 </tr>
                                 <tr>
                                     <th>Wednesday</th>
-                                    <th> <input type="radio" value="morning" name="wednesday" @if(old('wednesday') == 'morning') checked @endif/> </th>
-                                    <th> <input type="radio" value="afternoon" name="wednesday" @if(old('wednesday') == 'afternoon') checked @endif/> </th>
-                                    <th> <input type="radio" value="evening" name="wednesday" @if(old('wednesday') == 'evening') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Morning" name="wednesday[]" @if(old('wednesday') == 'morning') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Afternoon" name="wednesday[]" @if(old('wednesday') == 'afternoon') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Evening" name="wednesday[]" @if(old('wednesday') == 'evening') checked @endif/> </th>
 
                                 </tr>
                                 <tr>
                                     <th>Thursday</th>
-                                    <th> <input type="radio" value="morning" name="thursday" @if(old('thursday') == 'morning') checked @endif/> </th>
-                                    <th> <input type="radio" value="afternoon" name="thursday" @if(old('thursday') == 'afternoon') checked @endif/> </th>
-                                    <th> <input type="radio" value="evening" name="thursday" @if(old('thursday') == 'evening') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Morning" name="thursday[]" @if(old('thursday') == 'morning') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Afternoon" name="thursday[]" @if(old('thursday') == 'afternoon') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Evening" name="thursday[]" @if(old('thursday') == 'evening') checked @endif/> </th>
 
                                 </tr>
                                 <tr>
                                     <th>Friday</th>
-                                    <th> <input type="radio" value="morning" name="friday" @if(old('friday') == 'morning') checked @endif/> </th>
-                                    <th> <input type="radio" value="afternoon" name="friday" @if(old('friday') == 'afternoon') checked @endif/> </th>
-                                    <th> <input type="radio" value="evening" name="friday" @if(old('friday') == 'evening') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Morning" name="friday[]" @if(old('friday') == 'morning') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Afternoon" name="friday[]" @if(old('friday') == 'afternoon') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Evening" name="friday[]" @if(old('friday') == 'evening') checked @endif/> </th>
 
                                 </tr>
                                 <tr>
                                     <th>Sunday</th>
-                                    <th> <input type="radio" value="morning" name="sunday" @if(old('sunday') == 'morning') checked @endif/> </th>
-                                    <th> <input type="radio" value="afternoon" name="sunday" @if(old('sunday') == 'afternoon') checked @endif/> </th>
-                                    <th> <input type="radio" value="evening" name="sunday" @if(old('sunday') == 'evening') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Morning" name="sunday[]" @if(old('sunday') == 'morning') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Afternoon" name="sunday[]" @if(old('sunday') == 'afternoon') checked @endif/> </th>
+                                    <th> <input type="checkbox" value="Evening" name="sunday[]" @if(old('sunday') == 'evening') checked @endif/> </th>
 
                                 </tr>
                                 <!-- Table body -->

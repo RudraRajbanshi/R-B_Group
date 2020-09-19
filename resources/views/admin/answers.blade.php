@@ -67,7 +67,7 @@
 
             <form action="{{ url('/question') }}"  method="POST">
                  <div style=";width:100%;height:80px;margin-top:2%">
-                        <div style="float:left;width:20%;background:red">
+                        <div style="float:left;width:20%;">
                             <img style="width:200%" src="{{ asset('user/assets/img/logo.png') }}"  alt="" class="img-fluid">
                         </div>
                         <div style="float:right;margin-top:7%">

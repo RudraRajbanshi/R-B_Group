@@ -142,9 +142,9 @@
               <div class="member-img">
                 <img src="{{ asset('user/assets/img/team/team-1.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="icofont-telegram"></i></a>
-                  <a href=""><i class="icofont-email"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="#"><i class="icofont-telegram"></i></a>
+                  <a href="#"><i class="icofont-email"></i></a>
+                  <a href="#"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -159,10 +159,10 @@
               <div class="member-img">
                 <img src="{{ asset('user/assets/img/team/team-2.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="icofont-telegram"></i></a>
-                  <a href=""><i class="icofont-email"></i></a>
+                  <a href="#"><i class="icofont-telegram"></i></a>
+                  <a href="#"><i class="icofont-email"></i></a>
 
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="http://linkedin.com/in/nitesh-pandey-ba92651b2"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -177,10 +177,10 @@
               <div class="member-img">
                 <img src="{{ asset('user/assets/img/team/team-4.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="icofont-telegram"></i></a>
-                  <a href=""><i class="icofont-email"></i></a>
+                  <a href="#"><i class="icofont-telegram"></i></a>
+                  <a href="#"><i class="icofont-email"></i></a>
 
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="#"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -195,9 +195,9 @@
               <div class="member-img">
                 <img src="{{ asset('user/assets/img/team/team-3.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="icofont-telegram"></i></a>
-                  <a href=""><i class="icofont-email"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="#"><i class="icofont-telegram"></i></a>
+                  <a href="#"><i class="icofont-email"></i></a>
+                  <a href="https://www.linkedin.com/mwlite/in/amit-dhakal-90a3b5175"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">

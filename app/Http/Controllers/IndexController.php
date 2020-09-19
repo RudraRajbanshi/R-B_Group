@@ -89,6 +89,16 @@ class IndexController extends Controller
 
        $r->validate($validation);
 
+        //dd($r->get('monday'));
+        $monday = implode(', ', $r->get('monday'));
+        $tuesday = implode(', ', $r->get('tuesday'));
+        $wednesday = implode(', ', $r->get('wednesday'));
+        $thursday = implode(', ', $r->get('thursday'));
+        $friday = implode(', ', $r->get('friday'));
+        $sunday = implode(', ', $r->get('sunday'));
+
+
+
         $image = '';
         if ($r->hasfile('image')) {
             $file = $r->file('image');
@@ -158,12 +168,12 @@ class IndexController extends Controller
 
         $ApplicantShift = new ApplicantShift;
         $ApplicantShift->email = $r->get('email');
-        $ApplicantShift->shift = "Monday: ".$r->get('monday') ."\n".
-                                 "Tuesday: " . $r->get('tuesday') ."\n".
-                                 "Wednesday: " . $r->get('wednesday') ."\n".
-                                 "Thursday: " . $r->get('thursday') ."\n".
-                                 "Friday: " . $r->get('friday') ."\n".
-                                 "Sunday: " . $r->get('sunday')
+        $ApplicantShift->shift = "Monday: ". $monday ."\n".
+                                 "Tuesday: " . $tuesday ."\n".
+                                 "Wednesday: " . $wednesday ."\n".
+                                 "Thursday: " . $thursday ."\n".
+                                 "Friday: " . $friday ."\n".
+                                 "Sunday: " . $sunday
 
 
         ;
