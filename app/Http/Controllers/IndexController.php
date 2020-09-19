@@ -84,7 +84,14 @@ class IndexController extends Controller
 
             'image' => 'mimes:jpeg',
             'coverletter' => 'mimes:pdf',
-            'resume' => 'mimes:pdf'
+
+            'monday' => 'required',
+            'tuesday' => 'required',
+            'wednesday' => 'required',
+            'thursday' => 'required',
+            'friday' => 'required',
+            'sunday' => 'required'
+
         );
 
        $r->validate($validation);
