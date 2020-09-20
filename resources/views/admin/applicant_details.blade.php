@@ -77,6 +77,7 @@
                     <th>Email</th>
 
                     <th>Time</th>
+                    <th>Status</th>
                     <th>Action</th>
                     <th></th>
                   </tr>
@@ -94,6 +95,7 @@
                     <td>{{ $a['email'] }}</td>
 
                     <td>{{ $a['created_at']->diffForHumans() }}</td>
+                    <td style="color:cornflowerblue">{{ $a['status'] }}</td>
                   <td><a class="btn btn-primary btn-xs" href="{{ url('/full_details/'.$a['id']) }}">View</a></td>
 
 

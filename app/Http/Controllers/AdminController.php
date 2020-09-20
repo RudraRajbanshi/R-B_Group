@@ -54,6 +54,9 @@ class AdminController extends Controller
 
         $shift = $applicant_shift->shift;
 
+        $applicant->status = "seen";
+        $applicant->save();
+
         return view('admin.view_full_details', compact('applicant','shift'));
     }
     public function answers(Request $r)

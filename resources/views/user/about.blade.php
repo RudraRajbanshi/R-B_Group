@@ -142,9 +142,10 @@
               <div class="member-img">
                 <img src="{{ asset('user/assets/img/team/team-1.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="#"><i class="icofont-telegram"></i></a>
+                  <a href="http://t.me/ruili001"><i class="icofont-telegram"></i></a>
                   <a href="#"><i class="icofont-email"></i></a>
-                  <a href="#"><i class="icofont-linkedin"></i></a>
+                  {{-- <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rudra.raj.617@gmail.com"><i class="icofont-email"></i></a> --}}
+                  <a href="http://linkedin.com/in/rui-li-50a6031b7"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -159,7 +160,7 @@
               <div class="member-img">
                 <img src="{{ asset('user/assets/img/team/team-2.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="#"><i class="icofont-telegram"></i></a>
+                  <a href="http://t.me/Nix0N_0"><i class="icofont-telegram"></i></a>
                   <a href="#"><i class="icofont-email"></i></a>
 
                   <a href="http://linkedin.com/in/nitesh-pandey-ba92651b2"><i class="icofont-linkedin"></i></a>
@@ -177,10 +178,10 @@
               <div class="member-img">
                 <img src="{{ asset('user/assets/img/team/team-4.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="#"><i class="icofont-telegram"></i></a>
+                  <a href="http://t.me/kapiler1"><i class="icofont-telegram"></i></a>
                   <a href="#"><i class="icofont-email"></i></a>
 
-                  <a href="#"><i class="icofont-linkedin"></i></a>
+                  <a href="http://linkedin.com/in/kapil-ghimire-9894251b7"><i class="icofont-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -195,7 +196,7 @@
               <div class="member-img">
                 <img src="{{ asset('user/assets/img/team/team-3.jpg') }}" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="#"><i class="icofont-telegram"></i></a>
+                  <a href="http://t.me/amit_dhakal1"><i class="icofont-telegram"></i></a>
                   <a href="#"><i class="icofont-email"></i></a>
                   <a href="https://www.linkedin.com/mwlite/in/amit-dhakal-90a3b5175"><i class="icofont-linkedin"></i></a>
                 </div>

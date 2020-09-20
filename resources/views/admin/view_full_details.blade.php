@@ -49,6 +49,7 @@
 
        </div> --}}
        <div style="width:100%;margin:1% 0 -1% 1%">
+                    <a class="btn btn-primary active" style="float:left;margin-right:1%" href="{{ url('/full_details/'.$applicant['id']) }}">Details</a>
                     <form style="float:left;margin-right:1%" method="GET" action = "{{ url('answers') }}">
                     <input type = 'hidden' name = 'email' value = "{{ $applicant['email'] }}" />
                       <input type = 'hidden' name = '_token' value = '{{ csrf_token() }}' />

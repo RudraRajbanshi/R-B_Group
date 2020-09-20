@@ -51,13 +51,14 @@
 
         <!-- row -->
         <div style="width:100%;margin:1% 0 -1% 1%">
+            <a class="btn btn-primary" style="float:left;margin-right:1%" href="{{ url('/full_details/'.$applicant['id']) }}">Details</a>
                     <form style="float:left;margin-right:1%" method="GET" action = "{{ url('answers') }}">
                     <input type = 'hidden' name = 'email' value = "{{ $applicant['email'] }}" />
                       <input type = 'hidden' name = '_token' value = '{{ csrf_token() }}' />
                      <input type="submit" class="btn btn-primary" value="View Answers">
                       </form>
 
-                    <a class="btn btn-primary" style="float:left;margin-right:1%" href="{{ url('/view_cover_letter/'.$applicant['id']) }}">View Cover Letter</a>
+                    <a class="btn btn-primary active" style="float:left;margin-right:1%" href="{{ url('/view_cover_letter/'.$applicant['id']) }}">View Cover Letter</a>
                     <a class="btn btn-primary" href="{{ url('/view_resume/'.$applicant['id']) }}">View Resume</a>
 
                     </div>
@@ -77,7 +78,14 @@
 
                        <hr>
                        {{-- <img src="{{ URL::to('/').'/uploads/'.$applicant['cover_letter'] }}" width="100%" height="100%" alt="NO PHOTO"> --}}
+
+                       @if($applicant['cover_letter'] == null)
+                       <iframe style="width:100%;height:500px" src=""></iframe>
+
+                       @else
                         <iframe style="width:100%;height:500px" src="{{ url('uploads/'.$applicant['cover_letter']) }}"></iframe>
+
+                        @endif
                        <br><br><br>
 
                             {{-- <div class="form-group">

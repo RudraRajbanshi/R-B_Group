@@ -53,6 +53,7 @@ class CreateApplicantsTable extends Migration
             $table->string('cover_letter')->nullable();
             $table->string('resume');
 
+            $table->string('status')->nullable();
             $table->timestamps();
         });
     }

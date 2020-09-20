@@ -51,6 +51,7 @@
 
         <!-- row -->
         <div style="width:100%;margin:1% 0 -1% 1%">
+            <a class="btn btn-primary" style="float:left;margin-right:1%" href="{{ url('/full_details/'.$applicant['id']) }}">Details</a>
                     <form style="float:left;margin-right:1%" method="GET" action = "{{ url('answers') }}">
                     <input type = 'hidden' name = 'email' value = "{{ $applicant['email'] }}" />
                       <input type = 'hidden' name = '_token' value = '{{ csrf_token() }}' />
@@ -58,7 +59,7 @@
                       </form>
 
                     <a class="btn btn-primary" style="float:left;margin-right:1%" href="{{ url('/view_cover_letter/'.$applicant['id']) }}">View Cover Letter</a>
-                    <a class="btn btn-primary" href="{{ url('/view_resume/'.$applicant['id']) }}">View Resume</a>
+                    <a class="btn btn-primary active" href="{{ url('/view_resume/'.$applicant['id']) }}">View Resume</a>
 
                     </div>
         <div id="print_content" class="row mt" style="border:1px solid black;width:75%;margin-left:1%">
@@ -74,7 +75,7 @@
 
 
                        </div>
-                       <div style="float:right;margin-top:-2%">
+                       <div style="float:right;margin-top:-4%">
                        <h5>Email: {{ $applicant['email'] }}</h5>
                        </div>
                        <hr>

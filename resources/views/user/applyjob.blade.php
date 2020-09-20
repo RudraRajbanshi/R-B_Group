@@ -229,6 +229,7 @@
                                         <th>Morning</th>
                                         <th>Afternoon</th>
                                         <th>Evening</th>
+                                        <th>None</th>
                                     </tr>
                                 </thead>
 
@@ -237,6 +238,7 @@
                                     <th> <input type="checkbox" value="Morning" name="monday[]" @if(is_array(old('monday')) && in_array('Morning', old('monday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Afternoon" name="monday[]" @if(is_array(old('monday')) && in_array('Afternoon', old('monday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Evening" name="monday[]" @if(is_array(old('monday')) && in_array('Evening', old('monday'))) checked @endif/> </th>
+                                    <th> <input type="checkbox" value="None" name="monday[]" @if(is_array(old('monday')) && in_array('None', old('monday'))) checked @endif/> </th>
 
                                 </tr>
                                 <tr>
@@ -244,35 +246,35 @@
                                     <th> <input type="checkbox" value="Morning" name="tuesday[]" @if(is_array(old('tuesday')) && in_array('Morning', old('tuesday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Afternoon" name="tuesday[]" @if(is_array(old('tuesday')) && in_array('Afternoon', old('tuesday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Evening" name="tuesday[]" @if(is_array(old('tuesday')) && in_array('Evening', old('tuesday'))) checked @endif/> </th>
-
+                                     <th> <input type="checkbox" value="None" name="tuesday[]" @if(is_array(old('tuesday')) && in_array('None', old('tuesday'))) checked @endif/> </th>
                                 </tr>
                                 <tr>
                                     <th>Wednesday</th>
                                     <th> <input type="checkbox" value="Morning" name="wednesday[]" @if(is_array(old('wednesday')) && in_array('Morning', old('wednesday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Afternoon" name="wednesday[]" @if(is_array(old('wednesday')) && in_array('Afternoon', old('wednesday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Evening" name="wednesday[]" @if(is_array(old('wednesday')) && in_array('Evening', old('wednesday'))) checked @endif/> </th>
-
+                                     <th> <input type="checkbox" value="None" name="wednesday[]" @if(is_array(old('wednesday')) && in_array('None', old('wednesday'))) checked @endif/> </th>
                                 </tr>
                                 <tr>
                                     <th>Thursday</th>
                                     <th> <input type="checkbox" value="Morning" name="thursday[]" @if(is_array(old('thursday')) && in_array('Morning', old('thursday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Afternoon" name="thursday[] "@if(is_array(old('thursday')) && in_array('Afternoon', old('thursday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Evening" name="thursday[]" @if(is_array(old('thursday')) && in_array('Evening', old('thursday'))) checked @endif/> </th>
-
+                                     <th> <input type="checkbox" value="None" name="thursday[]" @if(is_array(old('thursday')) && in_array('None', old('thursday'))) checked @endif/> </th>
                                 </tr>
                                 <tr>
                                     <th>Friday</th>
                                     <th> <input type="checkbox" value="Morning" name="friday[]" @if(is_array(old('friday')) && in_array('Morning', old('friday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Afternoon" name="friday[]" @if(is_array(old('friday')) && in_array('Afternoon', old('friday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Evening" name="friday[]" @if(is_array(old('friday')) && in_array('Evening', old('friday'))) checked @endif/> </th>
-
+                                     <th> <input type="checkbox" value="None" name="friday[]" @if(is_array(old('friday')) && in_array('None', old('friday'))) checked @endif/> </th>
                                 </tr>
                                 <tr>
                                     <th>Sunday</th>
                                     <th> <input type="checkbox" value="Morning" name="sunday[]" @if(is_array(old('sunday')) && in_array('Morning', old('sunday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Afternoon" name="sunday[]" @if(is_array(old('sunday')) && in_array('Afternoon', old('sunday'))) checked @endif/> </th>
                                     <th> <input type="checkbox" value="Evening" name="sunday[]" @if(is_array(old('sunday')) && in_array('Evening', old('sunday'))) checked @endif/> </th>
-
+                                     <th> <input type="checkbox" value="None" name="sunday[]" @if(is_array(old('sunday')) && in_array('None', old('sunday'))) checked @endif/> </th>
                                 </tr>
                                 <!-- Table body -->
                             </table>
