@@ -20,20 +20,20 @@
           <div class="col-lg-4 col-md-4 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.html">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="aboutjob.html">About Jobs</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="applyjob.html">Apply Job</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/index') }}">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('about') }}">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('services') }}">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('aboutjob') }}">About Jobs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('applyjob') }}">Apply Job</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-4 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.html">COMMERCIAL CLEANING</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.html">MAINTENANCE</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.html">R&B GROUPS SERVICES
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('services') }}">COMMERCIAL CLEANING</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('services') }}">MAINTENANCE</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('services') }}">R&B GROUPS SERVICES
                   MANAGEMENT</a></li>
 
             </ul>
